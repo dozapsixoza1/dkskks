@@ -9,7 +9,7 @@ import db_cur
 #  ПЕРЕД ВКЛЮЧЕНИЕМ БОТА. ОБЯЗАТЕЛЬНО ПРОЧТИТЕ ФАЙЛ README.md
 #  ПЕРЕД ВКЛЮЧЕНИЕМ БОТА. ОБЯЗАТЕЛЬНО ПРОЧТИТЕ ФАЙЛ README.md
 #  ПЕРЕД ВКЛЮЧЕНИЕМ БОТА. ОБЯЗАТЕЛЬНО ПРОЧТИТЕ ФАЙЛ README.md
-TOKEN = ''  # Введите сюда токен своего Telegram-бота
+TOKEN = '8248695769:AAHXlPQcCczH22zU0Z4a7uZnIsRZaZrY8EU'  # Введите сюда токен своего Telegram-бота
 bot = telebot.TeleBot(TOKEN)
 
 db_cur = db_cur.DBcur('users.db')
@@ -487,3 +487,4 @@ def give_passive():
 
 repeater(3600, give_passive)
 bot.polling(none_stop=True)
+
